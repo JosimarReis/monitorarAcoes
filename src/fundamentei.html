@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <link rel="preconnect" href="//use.typekit.net" />
+    <link rel="dns-prefetch" href="//use.typekit.net" />
+    <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width" />
+    <link rel="preconnect" href="//production.api-lambda.fundamentei.io" />
+    <link rel="dns-prefetch" href="//production.api-lambda.fundamentei.io" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicons/favicon@16w.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicons/favicon@32w.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="../static/favicons/favicon@96w.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../static/favicons/favicon@192w.png" />
+    <link rel="stylesheet" type="text/css" href="https://use.typekit.net/elt8qtj.css" />
+    <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <script async="" type="text/javascript" src="https://fundamentei.com/static/scripts/activecampaign.js"></script>
+    <script async="" type="text/javascript" src="https://fundamentei.com/static/scripts/fbpixel.js"></script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <title>Fundamentei</title>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="title" content="Fundamentei" />
+    <meta name="description"
+        content="Site completo de Análise Fundamentalista de Ações, Stocks e Fundos Imobiliários" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fundamentei" />
+    <meta property="og:title" content="Fundamentei" />
+    <meta property="og:description"
+        content="Site completo de Análise Fundamentalista de Ações, Stocks e Fundos Imobiliários" />
+    <meta property="og:image" content="https://fundamentei.com/static/ogp-logo@1200w.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@fundamentei" />
+    <meta name="twitter:title" content="Fundamentei" />
+    <meta name="twitter:description"
+        content="Site completo de Análise Fundamentalista de Ações, Stocks e Fundos Imobiliários" />
+    <meta name="twitter:image" content="https://fundamentei.com/static/ogp-logo@1200w.png" />
+    <meta name="twitter:image:alt" content="Logotipo do Fundamentei" />
+    <link rel="canonical" href="https://fundamentei.com" />
+    <script
+        type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Fundamentei","url":"https://fundamentei.com","logo":"https://fundamentei.com/static/logo@512w.png","sameAs":["https://instagram.com/fundamentei","https://twitter.com/fundamentei","https://medium.com/@fundamentei","https://github.com/fundamentei","https://www.youtube.com/c/EduardoCavalcanticonsultor","https://www.linkedin.com/company/fundamentei"],"contactPoint":[{"@type":"ContactPoint","email":"contato@fundamentei.com","url":"https://fundamentei.com","contactType":"customer support","areaServed":["BR"],"availableLanguage":["Portuguese","English"]}]}</script>
+    <meta name="next-head-count" content="24" />
+    <link rel="preload" href="/_next/static/S_yH6CgbhfH9nE6NACM19/pages/index.js" as="script" />
+    <link rel="preload" href="/_next/static/S_yH6CgbhfH9nE6NACM19/pages/_app.js" as="script" />
+    <link rel="preload" href="/_next/static/runtime/webpack-4b444dab214c6491079c.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/commons.a0da080a1567a212401c.js" as="script" />
+    <link rel="preload" href="/_next/static/runtime/main-69c316f82e0521558b33.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/styles.a0497b231c558941e5c0.js" as="script" />
+    <link rel="stylesheet" href="/_next/static/css/styles.10bbd395.chunk.css" />
+</head>
+
+<body><noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=896726447084399&amp;ev=PageView&amp;noscript=1" /></noscript>
+    <div id="__next">
+        <style data-emotion-css="1gmso8b">
+            .css-1gmso8b {
+                margin: 40px auto 0px auto;
+                max-width: 1140px;
+            }
+        </style>
+        <div class="css-1gmso8b">
+            <style data-emotion-css="zu0oad">
+                .css-zu0oad {
+                    display: grid;
+                    grid-column-gap: 30px;
+                    grid-template-columns: repeat(12, 1fr);
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    width: 100%;
+                }
+            </style>
+            <nav role="navigation" class="css-zu0oad">
+                <style data-emotion-css="clm25a">
+                    .css-clm25a {
+                        grid-column: span 1;
+                        width: 100%;
+                    }
+                </style><span class="css-clm25a"><a href="/" title="Página Inicial"><svg viewBox="0 0 106 101"
+                            width="67" height="64">
+                            <title>Fundamentei</title>
+                            <path
+                                d="M24.09 86.571l19.274 14.273V48.119h26.41a5 5 0 003.999-1.999l12.954-17.263H24.091v57.714zm-4.817-67.333L0 0h106L91.545 19.238z"
+                                fill="#3f5fe9"></path>
+                        </svg></a></span>
+                <style data-emotion-css="1hl1rva">
+                    .css-1hl1rva {
+                        grid-column: span 4;
+                        width: 100%;
+                    }
+                </style>
+                <div class="css-1hl1rva">
+                    <div role="combobox" aria-expanded="false" aria-haspopup="listbox"
+                        aria-labelledby="AssetsTypeahead-label">
+                        <style data-emotion-css="16jn216">
+                            .css-16jn216 {
+                                position: relative;
+                                box-sizing: border-box;
+                                text-align: initial;
+                            }
+                        </style>
+                        <div class="css-16jn216">
+                            <style data-emotion-css="1hkjwm0">
+                                .css-1hkjwm0 {
+                                    border-radius: 24.5px;
+                                    box-shadow: 0 1px 3px 0 #33333333;
+                                    background-color: #ffffff;
+                                    box-sizing: border-box;
+                                    border: none;
+                                    outline: 0;
+                                    max-height: 49px;
+                                    width: 100%;
+                                    -webkit-transition: box-shadow 240ms, border-radius 120ms;
+                                    transition: box-shadow 240ms, border-radius 120ms;
+                                    padding: 16px;
+                                    color: #3f5fe9;
+                                    font-weight: 500;
+                                    -webkit-letter-spacing: 1px;
+                                    -moz-letter-spacing: 1px;
+                                    -ms-letter-spacing: 1px;
+                                    letter-spacing: 1px;
+                                    font-size: 14px;
+                                    line-height: 1.33;
+                                }
+
+                                .css-1hkjwm0:focus {
+                                    box-shadow: 0 10px 24px 0 #33333333;
+                                }
+
+                                .css-1hkjwm0::-webkit-input-placeholder {
+                                    font-weight: 300;
+                                    color: #bfccda;
+                                }
+
+                                .css-1hkjwm0::-moz-placeholder {
+                                    font-weight: 300;
+                                    color: #bfccda;
+                                }
+
+                                .css-1hkjwm0:-ms-input-placeholder {
+                                    font-weight: 300;
+                                    color: #bfccda;
+                                }
+
+                                .css-1hkjwm0::placeholder {
+                                    font-weight: 300;
+                                    color: #bfccda;
+                                }
+                            </style><input type="text" placeholder="Digite sua busca" aria-label="Digite sua busca"
+                                spellcheck="false" autoCapitalize="off" autoComplete="off" autoCorrect="off"
+                                aria-autocomplete="list" aria-labelledby="AssetsTypeahead-label" value=""
+                                id="AssetsTypeahead-input" class="css-1hkjwm0" />
+                        </div>
+                    </div>
+                </div>
+                <style data-emotion-css="fmng4b">
+                    .css-fmng4b {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        grid-column: span 5;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        height: 100%;
+                    }
+                </style>
+                <div class="css-fmng4b">
+                    <style data-emotion-css="ipk84m">
+                        .css-ipk84m {
+                            display: grid;
+                            grid-auto-columns: max-content;
+                            grid-auto-flow: column;
+                            grid-column-gap: 30px;
+                            height: 100%;
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                        }
+                    </style>
+                    <ul class="css-ipk84m">
+                        <style data-emotion-css="1h66nt4">
+                            .css-1h66nt4 {
+                                height: 100%;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                position: relative;
+                                pointer-events: all;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                            }
+
+                            .css-1h66nt4:after {
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                content: "";
+                                height: 4px;
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                background-color: #3f5fe9;
+                                border-radius: 2px;
+                            }
+
+                            .css-1h66nt4>a {
+                                cursor: pointer;
+                                color: #2f4eda;
+                            }
+
+                            .css-1h66nt4>a:hover {
+                                color: #627bea;
+                            }
+                        </style>
+                        <li class="css-1h66nt4">
+                            <style data-emotion-css="1de0pti">
+                                .css-1de0pti {
+                                    position: relative;
+                                    -webkit-text-decoration: none;
+                                    text-decoration: none;
+                                    color: inherit;
+                                    font-weight: 400;
+                                    -webkit-letter-spacing: 1.14px;
+                                    -moz-letter-spacing: 1.14px;
+                                    -ms-letter-spacing: 1.14px;
+                                    letter-spacing: 1.14px;
+                                    font-size: 16px;
+                                    line-height: 1.33;
+                                    display: -webkit-box;
+                                    display: -webkit-flex;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                }
+                            </style><a href="/" class="css-1de0pti">Ativos</a>
+                        </li>
+                        <style data-emotion-css="3pg75t">
+                            .css-3pg75t {
+                                height: 100%;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                position: relative;
+                                pointer-events: all;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                            }
+
+                            .css-3pg75t:after {
+                                display: none;
+                                content: "";
+                                height: 4px;
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                background-color: #3f5fe9;
+                                border-radius: 2px;
+                            }
+
+                            .css-3pg75t>a {
+                                cursor: pointer;
+                                color: #394e66;
+                            }
+
+                            .css-3pg75t>a:hover {
+                                color: #627bea;
+                            }
+                        </style>
+                        <li class="css-3pg75t"><a href="/ranking" class="css-1de0pti">Ranking</a></li>
+                        <li class="css-3pg75t"><a href="/support" class="css-1de0pti">Suporte</a></li>
+                        <li class="css-3pg75t"><a href="/3t19" class="css-1de0pti">3T19</a></li>
+                        <style data-emotion-css="azx95j">
+                            .css-azx95j {
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                height: 100%;
+                            }
+                        </style>
+                        <li class="css-azx95j">
+                            <style data-emotion-css="14tvdxo">
+                                .css-14tvdxo {
+                                    cursor: pointer;
+                                    pointer-events: all;
+                                }
+                            </style>
+                            <style data-emotion-css="rxx2ew">
+                                .css-rxx2ew {
+                                    position: relative;
+                                    -webkit-text-decoration: none;
+                                    text-decoration: none;
+                                    color: inherit;
+                                    font-weight: 400;
+                                    -webkit-letter-spacing: 1.14px;
+                                    -moz-letter-spacing: 1.14px;
+                                    -ms-letter-spacing: 1.14px;
+                                    letter-spacing: 1.14px;
+                                    font-size: 16px;
+                                    line-height: 1.33;
+                                    display: -webkit-box;
+                                    display: -webkit-flex;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    cursor: pointer;
+                                    pointer-events: all;
+                                }
+                            </style><a href="/premium" class="css-rxx2ew">
+                                <style data-emotion-css="4oddm4">
+                                    .css-4oddm4 {
+                                        padding: 8px 16px;
+                                        color: #2f4eda;
+                                        font-weight: 400;
+                                        background-color: #edf0fd;
+                                        border: solid 1px transparent;
+                                        border-radius: 32px;
+                                    }
+
+                                    .css-4oddm4:hover {
+                                        color: #627bea;
+                                    }
+                                </style><span class="css-4oddm4">Seja Premium</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <style data-emotion-css="17hj4j8">
+                    .css-17hj4j8 {
+                        grid-column: span 2;
+                        text-align: right;
+                    }
+                </style>
+                <div class="css-17hj4j8">
+                    <style data-emotion-css="1u9z5uw">
+                        .css-1u9z5uw {
+                            box-sizing: border-box;
+                            margin: 0;
+                            padding: 0;
+                            background-color: transparent;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                        }
+                    </style><button aria-haspopup="true" type="button" class="css-1u9z5uw">
+                        <style data-emotion-css="ztqi42">
+                            .css-ztqi42 {
+                                display: inline-grid;
+                                grid-auto-columns: max-content;
+                                grid-auto-flow: column;
+                                grid-column-gap: 12px;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                            }
+                        </style>
+                        <div class="css-ztqi42">
+                            <style data-emotion-css="s6bhoz">
+                                .css-s6bhoz {
+                                    box-shadow: 0 2px 10px 0 #3333337f;
+                                    -webkit-backface-visibility: hidden;
+                                }
+                            </style>
+                            <style data-emotion-css="1wo6zcb">
+                                .css-1wo6zcb {
+                                    display: -webkit-inline-box;
+                                    display: -webkit-inline-flex;
+                                    display: -ms-inline-flexbox;
+                                    display: inline-flex;
+                                    -webkit-align-items: center;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    -webkit-box-pack: center;
+                                    -webkit-justify-content: center;
+                                    -ms-flex-pack: center;
+                                    justify-content: center;
+                                    box-sizing: border-box;
+                                    width: 40px;
+                                    height: 40px;
+                                    color: #ffffff;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 1.33;
+                                    background-color: #0767d2;
+                                    border-radius: 100%;
+                                    -webkit-user-select: none;
+                                    -moz-user-select: none;
+                                    -ms-user-select: none;
+                                    user-select: none;
+                                    box-shadow: 0 2px 10px 0 #3333337f;
+                                    -webkit-backface-visibility: hidden;
+                                }
+                            </style>
+                            <div title="JOSIMAR GERALDO REIS" draggable="false" class="css-1wo6zcb"><span>J</span></div>
+                            <svg width="15" height="8" aria-hidden="true">
+                                <path fill="#2F4EDA"
+                                    d="M7.5 8a.887.887 0 01-.615-.243L.255 1.418a.805.805 0 010-1.174.896.896 0 011.228 0L7.5 5.995 13.517.244a.896.896 0 011.228 0c.34.324.34.85 0 1.174l-6.63 6.34A.886.886 0 017.5 8z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <style data-emotion-css="54zpkg">
+            .css-54zpkg {
+                max-width: 1140px;
+                margin: 32px auto;
+                margin-bottom: 0;
+            }
+        </style>
+        <div class="css-54zpkg">
+            <style data-emotion-css="lzvqdz">
+                .css-lzvqdz {
+                    position: relative;
+                    display: grid;
+                    grid-column-gap: 30px;
+                    grid-template-columns: repeat(12, 1fr);
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 24px;
+                    background-color: #111b27;
+                    border-radius: 6px;
+                    border-top-right-radius: 0;
+                    box-shadow: 0 1px 3px 0 #33333333;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                }
+            </style>
+            <div class="css-lzvqdz">
+                <style data-emotion-css="5jzy3s">
+                    .css-5jzy3s {
+                        grid-column: span 8;
+                    }
+                </style>
+                <div class="css-5jzy3s"><svg width="332" height="36" viewBox="0 0 434 47">
+                        <g fill-rule="nonzero" fill="none">
+                            <g fill="#B4A070">
+                                <path
+                                    d="M56.057.096c.502.752.94 1.545 1.308 2.371.247.56.447 1.141.596 1.735.129.511.213 1.032.251 1.558a9.394 9.394 0 01-.206 2.82 13.637 13.637 0 01-1.082 3.068 15.44 15.44 0 01-.966 1.674c-.405.602-.84 1.183-1.305 1.74-.193.235-.402.456-.603.684-.022.025-.06.042-.055.097.178.016.357 0 .53-.044.42-.067.831-.18 1.226-.336a5.352 5.352 0 001.516-.953c.763-.667 1.347-1.477 1.886-2.325a30.828 30.828 0 001.565-2.837.85.85 0 01.117-.206c.076.032.069.105.083.155.14.529.192 1.077.154 1.623a7.7 7.7 0 01-.592 2.409 9.903 9.903 0 01-1.546 2.5c-.24.293-.495.572-.765.837a13.328 13.328 0 01-3.087 2.204c-.326.171-.666.316-1.025.485.199 0 .396-.024.589-.071a11.98 11.98 0 001.969-.5 11.452 11.452 0 002.885-1.448c.474-.33.913-.706 1.31-1.124a18.155 18.155 0 001.506-1.872c.195-.268.394-.533.61-.824.02.071.02.147 0 .219a10.686 10.686 0 01-1.18 3.489 9.29 9.29 0 01-1.083 1.527 11.086 11.086 0 01-2.824 2.272 19.84 19.84 0 01-3.202 1.455 31.88 31.88 0 01-2.109.686.396.396 0 00-.19.088c.217.029.418.058.61.082.416.047.836.057 1.254.03.29-.02.578-.06.863-.116 1.01-.189 1.951-.558 2.89-.964 1.082-.469 2.133-.997 3.183-1.534.082-.05.17-.088.263-.115-.024.182-.07.36-.14.529a3.967 3.967 0 01-1.518 1.904c-.519.35-1.071.646-1.65.884-.825.35-1.682.624-2.558.814a19.23 19.23 0 01-1.517.286c-.365.052-.729.113-1.095.163-.336.045-.673.081-1.01.119-.434.049-.866.099-1.3.14-.29.03-.58.05-.87.076l-1.212.105c-.192.016-.386.015-.58.036-.26.028-.521.03-.782.05-.398.03-.796.063-1.194.095h-.11c-.315 0-.628.04-.941.07-.314.03-.641.042-.96.08-.427.05-.858.075-1.283.139-.425.064-.836.102-1.261.164-.39.059-.774.14-1.161.204a9.09 9.09 0 00-1.582.409 5.264 5.264 0 00-2.29 1.534 5.149 5.149 0 00-.95 1.768 4.64 4.64 0 00-.211 1.813c.084.992.448 1.94 1.048 2.734a6.256 6.256 0 002.195 1.876c.351.179.717.327 1.094.443.843.268 1.673.558 2.509.87.995.371 1.976.777 2.937 1.229.83.39 1.637.823 2.451 1.243.572.295 1.138.6 1.712.89.16.082.181.105.045.26-.357.412-.844.69-1.38.788-.431.072-.87.084-1.305.036-.253-.022-.507-.043-.76-.072a13.93 13.93 0 01-1.377-.24 12.452 12.452 0 01-2.037-.653 12.724 12.724 0 01-3.434-2.132c-.496-.43-.961-.892-1.394-1.384a15.104 15.104 0 01-1.628-2.188 11.43 11.43 0 01-1.475-3.828 13.72 13.72 0 01-.156-1.188 8.408 8.408 0 01.426-3.476 10.1 10.1 0 011.554-2.807c.292-.381.604-.745.93-1.097.217-.231.437-.457.662-.677.55-.54 1.13-1.05 1.726-1.534a32.618 32.618 0 012.496-1.829 51.497 51.497 0 012.453-1.534c.905-.534 1.804-1.075 2.711-1.605a80.383 80.383 0 003.206-1.97c.739-.475 1.488-.937 2.18-1.485.713-.557 1.355-1.2 1.912-1.915a8.983 8.983 0 001.394-2.65c.2-.617.34-1.252.418-1.896.085-.748.106-1.502.061-2.254a14.8 14.8 0 00-.195-1.732c-.061-.384-.14-.762-.214-1.144a3.242 3.242 0 01-.009-.922c.009-.035.02-.06.075-.078zM2.082 8.72c.09.153.162.314.216.482.326.89.711 1.756 1.153 2.594a8.765 8.765 0 001.207 1.703 8.153 8.153 0 001.982 1.615 7.058 7.058 0 002.068.785c.133.037.269.062.406.074.034-.054-.015-.068-.036-.09a22.84 22.84 0 01-1.982-2.511 15.037 15.037 0 01-1.478-2.734 11.333 11.333 0 01-.645-2.157 10.065 10.065 0 01.34-4.972 13.19 13.19 0 011.45-3.03C6.84.358 6.919.235 7 .114c.025-.04.044-.087.107-.103.013.192-.002.385-.045.573-.087.61-.202 1.218-.3 1.827a18.677 18.677 0 00-.204 1.622A9.25 9.25 0 006.54 5.16c.025.551.09 1.1.191 1.642.1.518.24 1.028.418 1.524a9.261 9.261 0 001.096 2.112c.469.658 1.012 1.26 1.618 1.796.39.346.803.667 1.235.96.657.466 1.324.908 2.003 1.329.678.42 1.358.832 2.039 1.235.871.508 1.735 1.025 2.604 1.534.685.404 1.364.818 2.036 1.242 1.06.673 2.1 1.379 3.094 2.149a28.118 28.118 0 013.043 2.711 11.436 11.436 0 012 2.806c.364.729.627 1.503.783 2.303a8.82 8.82 0 01.14 2.19c-.047.8-.193 1.59-.435 2.353a12.239 12.239 0 01-1.451 3.048 15.515 15.515 0 01-1.68 2.12 14.135 14.135 0 01-2.446 2.085 12.723 12.723 0 01-2.648 1.36c-.657.25-1.333.446-2.021.59-.45.095-.905.167-1.363.214a5.433 5.433 0 01-2.51-.37.992.992 0 01-.367-.26.651.651 0 01-.156-.324.3.3 0 01.08-.252.638.638 0 01.249-.179c.54-.22 1.045-.512 1.565-.775a69.896 69.896 0 013.624-1.727 38.42 38.42 0 013.172-1.227c.436-.14.88-.279 1.315-.418a6.141 6.141 0 001.941-1.092 5.838 5.838 0 001.624-2.122c.208-.46.35-.946.418-1.446a5 5 0 00-.658-3.238 4.471 4.471 0 00-1.699-1.659 7.572 7.572 0 00-2.36-.818c-.47-.09-.939-.177-1.412-.25-.418-.063-.836-.098-1.254-.158-.445-.062-.892-.087-1.337-.139-.342-.04-.69-.049-1.032-.086-.446-.05-.895-.065-1.341-.104-.399-.035-.797-.055-1.196-.096-.18-.018-.363-.026-.544-.04-.435-.031-.868-.071-1.303-.112-.314-.03-.629-.047-.942-.075a94.994 94.994 0 01-1.085-.105c-.386-.037-.772-.071-1.156-.118a46.226 46.226 0 01-1.331-.184 19.387 19.387 0 01-1.693-.332 14.984 14.984 0 01-3.283-1.162 4.912 4.912 0 01-1.673-1.325 4.078 4.078 0 01-.751-1.601.23.23 0 010-.053.14.14 0 01.012-.04.557.557 0 01.202.115 17.002 17.002 0 002.45 1.431c.784.374 1.603.666 2.446.872.453.108.912.191 1.375.248.668.081 1.342.11 2.014.088.239.01.478-.013.71-.07a3.143 3.143 0 00-.39-.117 25.868 25.868 0 01-3.67-1.28 13.997 13.997 0 01-3.017-1.78 9.977 9.977 0 01-2.606-3.032c-.49-.902-.85-1.868-1.073-2.87-.055-.23-.096-.462-.14-.697a1.55 1.55 0 01-.014-.162c.069-.011.071.042.09.075a13.09 13.09 0 001.27 1.886 10.68 10.68 0 002.278 2.104 11.678 11.678 0 003.036 1.467c.717.222 1.448.397 2.188.525.047.014.097.01.14-.013l-.354-.163a14.92 14.92 0 01-2.732-1.626 10.791 10.791 0 01-1.231-1.08 9.262 9.262 0 01-2.37-4.044 8.127 8.127 0 01-.319-2.061c0-.187-.033-.376-.018-.558.034-.366.007-.742.103-1.113zM35.104 13.305c-.308 0-.603-.007-.899 0-.323.004-.639.097-.913.27-.348.224-.418.52-.342.92.08.318.21.622.383.9.409.726.9 1.4 1.466 2.012.212.227.362.504.436.806a.894.894 0 01-.055.558 1.31 1.31 0 01-.378.503 14.138 14.138 0 00-2.788 3.107c-.223.34-.428.692-.613 1.055-.026.051-.039.116-.11.152-.11-.202-.219-.405-.329-.605a12.368 12.368 0 00-1.497-2.148 12.927 12.927 0 00-1.601-1.534 1.614 1.614 0 01-.558-1.037 3.884 3.884 0 01.042-1.231c.072-.474.187-.941.343-1.395a7.542 7.542 0 011.244-2.272c.246-.308.514-.6.8-.871a3.289 3.289 0 011.723-.837 3.875 3.875 0 012.006.148c.535.174 1.003.51 1.34.962.13.16.232.342.3.537zM33.143 38.205c.17.244.322.462.476.678.47.663.975 1.3 1.512 1.91.354.402.726.786 1.115 1.153a15.91 15.91 0 002.477 1.936 14.77 14.77 0 004.017 1.762c.16.044.182.074.115.242-.19.48-.61.831-1.115.935-.188.048-.38.074-.574.079-.575.013-1.15-.014-1.721-.081a8.45 8.45 0 01-2.37-.574 5.384 5.384 0 01-1.504-.944c-.751-.679-1.246-1.524-1.612-2.454a14.43 14.43 0 01-.67-2.321c-.07-.343-.147-.686-.196-1.033-.037-.43-.02-.862.05-1.288zM30.524 37.96c-.012.279-.01.533-.041.784-.027.21-.033.418-.059.633a16.494 16.494 0 01-.333 1.913c-.173.727-.42 1.434-.735 2.11a5.09 5.09 0 01-.836 1.232 7.211 7.211 0 01-3.132 2.015 6.9 6.9 0 01-1.798.34 5.45 5.45 0 01-1.514-.126 3.205 3.205 0 01-1.236-.636.529.529 0 01-.19-.324.296.296 0 01.31-.386c.2 0 .399-.034.587-.104.98-.326 1.925-.747 2.824-1.255.882-.5 1.712-1.088 2.476-1.754.51-.441.99-.915 1.437-1.419a17.482 17.482 0 001.482-1.933c.206-.313.407-.633.61-.95a.26.26 0 01.148-.14z">
+                                </path>
+                            </g>
+                            <g fill="#FFF">
+                                <path
+                                    d="M99.528 36l.472-6.14h-1.195c-.21.914-.472 1.678-.786 2.29a4.058 4.058 0 01-1.258 1.481c-.524.374-1.174.64-1.95.795-.775.156-1.719.234-2.83.234-.985 0-1.813-.057-2.484-.172-.671-.114-1.21-.311-1.62-.592a2.265 2.265 0 01-.864-1.09c-.168-.448-.252-1.014-.252-1.7v-7.044c1.174 0 2.144.078 2.909.234.765.156 1.373.385 1.824.686.45.301.765.68.943 1.137.178.458.267.998.267 1.621h1.101v-8.509h-1.1c0 .624-.1 1.164-.3 1.62-.199.458-.523.832-.974 1.123-.45.29-1.059.504-1.824.639-.765.135-1.714.203-2.846.203V13.87c0-.353.178-.53.535-.53h3.993c1.07 0 1.981.063 2.736.187.755.125 1.379.343 1.871.655.493.312.88.732 1.164 1.262.283.53.487 1.21.613 2.042h1.1L98.492 12H80.314v1.184c.671.042 1.216.11 1.636.203.419.094.739.27.959.53.22.26.367.613.44 1.06.073.446.11 1.033.11 1.76v14.525c0 .728-.042 1.32-.126 1.777-.084.457-.251.81-.503 1.06-.251.25-.603.426-1.053.53-.451.103-1.043.166-1.777.187V36h19.528zM113.095 15.187l.43.007c1.277.043 2.467.28 3.57.713 1.225.48 2.282 1.144 3.17 1.992a8.987 8.987 0 012.079 3.024c.496 1.168.745 2.44.745 3.816 0 1.312-.233 2.516-.697 3.612a8.156 8.156 0 01-1.958 2.82c-.84.784-1.846 1.396-3.015 1.836-1.169.44-2.45.66-3.843.66h-9.393v-.912l.254-.009c.493-.02.9-.062 1.223-.123.377-.072.669-.208.877-.408.208-.2.348-.472.42-.816.073-.344.109-.804.109-1.38V18.835l-.003-.271a7.809 7.809 0 00-.081-1.085c-.056-.344-.169-.616-.337-.816-.168-.2-.412-.336-.732-.408a8.228 8.228 0 00-1.25-.156v-.912h8.432zm-.048 1.176h-3.05l-.096.006c-.209.03-.313.164-.313.402v12.984l.004.185c.08 1.7 1.271 2.55 3.575 2.55 2.194 0 3.876-.651 5.045-1.955 1.17-1.304 1.754-3.22 1.754-5.748 0-1.328-.16-2.512-.48-3.552-.321-1.04-.782-1.92-1.382-2.64a6.038 6.038 0 00-2.174-1.656c-.849-.384-1.81-.576-2.883-.576zM136.145 33.907c1.249 0 2.314-.164 3.195-.492.88-.328 1.597-.812 2.15-1.452.552-.64.953-1.44 1.2-2.4.249-.96.373-2.072.373-3.336v-5.028c.004-1.24.044-2.2.12-2.88.08-.712.24-1.236.48-1.572.193-.272.453-.448.781-.528.329-.08.75-.12 1.262-.12v-.912h-6.967v.912c.497 0 .913.028 1.25.084.336.056.616.188.84.396.304.304.512.824.625 1.56.112.736.168 1.816.168 3.24v5.784c0 1.728-.4 3.036-1.201 3.924-.801.888-2.002 1.332-3.604 1.332-.897 0-1.653-.112-2.27-.336-.616-.224-1.117-.556-1.501-.996-.385-.44-.66-.976-.829-1.608-.168-.632-.252-1.356-.252-2.172v-6.704c.003-1.098.035-1.948.096-2.548.064-.632.208-1.092.432-1.38.192-.256.457-.416.793-.48s.777-.096 1.321-.096v-.912h-8.191v.912c.544 0 .98.036 1.309.108.328.072.588.212.78.42.273.304.437.776.493 1.416.056.64.084 1.552.084 2.736v6.336c0 1.264.144 2.328.432 3.192.289.864.73 1.564 1.322 2.1.592.536 1.329.92 2.21 1.152.88.232 1.914.348 3.099.348zM156.672 15.187l5.453 13.536.136.327c.311.745.586 1.352.825 1.82.272.537.536.94.792 1.213.257.272.533.448.83.528.295.08.652.12 1.068.12v.936h-7.831v-.936l.247-.003c.716-.014 1.218-.093 1.507-.237.32-.16.48-.424.48-.792 0-.16-.008-.308-.024-.444a3.553 3.553 0 00-.084-.444c-.04-.16-.096-.34-.168-.54-.072-.2-.164-.436-.277-.708l-.984-2.592h-6.414l-.159.384c-.205.5-.384.952-.538 1.356-.192.504-.348.94-.468 1.308-.12.368-.205.68-.253.936a3.538 3.538 0 00-.072.624c0 .448.144.756.433.924.288.168.768.252 1.44.252v.912h-5.836v-.912l.214-.031c.278-.044.523-.097.734-.161.265-.08.497-.192.697-.336.2-.144.376-.332.529-.564.152-.232.3-.516.444-.852l6.246-15.624h1.033zm-1.153 3.504l-2.811 7.08h5.477l-2.666-7.08zM175.83 15.187l.384.004c2.025.045 3.606.452 4.744 1.22 1.21.816 1.814 1.952 1.814 3.408 0 1.28-.384 2.344-1.153 3.192-.769.848-1.994 1.416-3.676 1.704l5.31 6.384.164.19c.388.43.81.747 1.265.95.52.232 1.14.404 1.861.516v.912h-4.636l-5.885-7.536-.124-.157a3.994 3.994 0 00-.465-.491 2.28 2.28 0 00-.576-.372 2.226 2.226 0 00-.697-.168c-.264-.024-.58-.036-.949-.036v4.992l.003.287c.01.463.045.851.105 1.165.072.376.224.668.457.876.232.208.568.348 1.009.42.44.072 1.02.108 1.741.108v.912h-8.48v-.912l.272-.011c.437-.022.799-.067 1.086-.133.344-.08.612-.216.804-.408.192-.192.32-.464.385-.816.064-.352.096-.808.096-1.368V18.835l-.003-.271a7.809 7.809 0 00-.081-1.085c-.056-.344-.169-.616-.337-.816-.168-.2-.412-.336-.732-.408a8.228 8.228 0 00-1.25-.156v-.912h7.544zm0 1.128h-2.21l-.096.006c-.209.03-.313.164-.313.402v6.984h1.706c1.601 0 2.79-.292 3.567-.876.777-.584 1.165-1.548 1.165-2.892 0-1.296-.308-2.224-.925-2.784-.616-.56-1.581-.84-2.894-.84zM197.221 15.187l.43.007c1.277.043 2.467.28 3.57.713 1.225.48 2.282 1.144 3.171 1.992a8.987 8.987 0 012.078 3.024c.496 1.168.745 2.44.745 3.816 0 1.312-.233 2.516-.697 3.612a8.156 8.156 0 01-1.958 2.82c-.84.784-1.846 1.396-3.015 1.836-1.169.44-2.45.66-3.843.66h-9.393v-.912l.254-.009c.493-.02.9-.062 1.223-.123.377-.072.67-.208.877-.408.208-.2.349-.472.42-.816.073-.344.109-.804.109-1.38V18.835l-.003-.271a7.809 7.809 0 00-.081-1.085c-.056-.344-.168-.616-.337-.816-.168-.2-.412-.336-.732-.408a8.228 8.228 0 00-1.25-.156v-.912h8.432zm-.048 1.176h-3.05l-.096.006c-.209.03-.313.164-.313.402v12.984l.004.185c.08 1.7 1.271 2.55 3.575 2.55 2.194 0 3.876-.651 5.045-1.955 1.17-1.304 1.754-3.22 1.754-5.748 0-1.328-.16-2.512-.48-3.552-.321-1.04-.781-1.92-1.382-2.64a6.038 6.038 0 00-2.174-1.656c-.849-.384-1.81-.576-2.883-.576zM221.496 14.947c1.41 0 2.722.248 3.94.744a9.904 9.904 0 013.17 2.04 9.469 9.469 0 012.114 3.048c.513 1.168.77 2.432.77 3.792 0 1.296-.261 2.512-.782 3.648a9.361 9.361 0 01-2.126 2.964 10.063 10.063 0 01-3.17 1.992c-1.218.488-2.523.732-3.916.732-1.393 0-2.699-.244-3.916-.732a10.063 10.063 0 01-3.17-1.992 9.361 9.361 0 01-2.127-2.964 8.653 8.653 0 01-.78-3.648c0-1.36.256-2.624.768-3.792a9.469 9.469 0 012.114-3.048 9.904 9.904 0 013.171-2.04c1.217-.496 2.53-.744 3.94-.744zm0 1.32c-1.057 0-2.01.196-2.859.588a5.993 5.993 0 00-2.162 1.68c-.592.728-1.049 1.608-1.369 2.64-.32 1.032-.48 2.188-.48 3.468 0 1.216.16 2.316.48 3.3.32.984.777 1.82 1.37 2.508a5.923 5.923 0 002.161 1.584c.849.368 1.802.552 2.859.552s2.006-.184 2.847-.552a6.06 6.06 0 002.162-1.584c.6-.688 1.06-1.524 1.38-2.508.321-.984.481-2.084.481-3.3 0-1.28-.16-2.436-.48-3.468-.32-1.032-.777-1.912-1.37-2.64a5.993 5.993 0 00-2.161-1.68c-.85-.392-1.802-.588-2.86-.588zM253.133 33.907c2.386 0 4.42-.712 6.102-2.136l.552 1.896h.841V27.69h-.985c-.88 3.28-2.866 4.92-5.957 4.92-2.034 0-3.588-.692-4.66-2.076-1.074-1.384-1.61-3.364-1.61-5.94 0-1.312.14-2.488.42-3.528.28-1.04.685-1.92 1.213-2.64a5.364 5.364 0 011.946-1.656c.769-.384 1.642-.576 2.619-.576 1.425 0 2.642.4 3.651 1.2 1.01.8 1.69 1.904 2.042 3.312h.889l-.216-5.52h-.673l-.432 1.488c-.993-.608-1.914-1.048-2.763-1.32a8.844 8.844 0 00-2.714-.408c-1.362 0-2.607.236-3.736.708a8.33 8.33 0 00-2.907 2.004c-.808.864-1.437 1.896-1.885 3.096-.449 1.2-.673 2.528-.673 3.984 0 1.392.212 2.656.637 3.792.424 1.136 1.025 2.1 1.801 2.892a7.97 7.97 0 002.81 1.836c1.098.432 2.327.648 3.688.648zM273.276 15.187l5.453 13.536.136.327c.312.745.587 1.352.825 1.82.272.537.536.94.793 1.213.256.272.532.448.828.528.297.08.653.12 1.07.12v.936h-7.832v-.936l.247-.003c.716-.014 1.219-.093 1.507-.237.32-.16.48-.424.48-.792 0-.16-.008-.308-.024-.444a3.553 3.553 0 00-.084-.444c-.04-.16-.096-.34-.168-.54-.072-.2-.164-.436-.276-.708l-.985-2.592h-6.414l-.159.384c-.205.5-.384.952-.538 1.356-.192.504-.348.94-.468 1.308-.12.368-.204.68-.252.936a3.538 3.538 0 00-.073.624c0 .448.145.756.433.924.288.168.769.252 1.441.252v.912h-5.837v-.912l.215-.031c.278-.044.522-.097.734-.161.264-.08.496-.192.696-.336.2-.144.377-.332.529-.564.152-.232.3-.516.444-.852l6.246-15.624h1.033zm-1.153 3.504l-2.81 7.08h5.476l-2.666-7.08zM291.641 33.907l6.51-15.864a5.56 5.56 0 01.444-.852c.153-.232.329-.42.529-.564.2-.144.432-.256.697-.336.264-.08.58-.144.949-.192v-.912h-5.838v.912c.72 0 1.213.088 1.477.264.265.176.397.48.397.912 0 .272-.048.576-.144.912-.096.336-.265.8-.505 1.392l-4.228 10.416-4.276-10.8c-.224-.56-.376-.988-.456-1.284a3.039 3.039 0 01-.12-.78c0-.16.032-.304.096-.432a.776.776 0 01.336-.324c.16-.088.38-.152.66-.192.281-.04.645-.06 1.094-.06v-.936h-7.831v.936c.416.032.776.104 1.08.216.305.112.577.28.817.504.24.224.46.512.66.864.201.352.405.768.613 1.248l6.198 14.952h.841zM309.982 15.187l5.453 13.536.136.327c.312.745.587 1.352.825 1.82.272.537.537.94.793 1.213.256.272.532.448.829.528.296.08.652.12 1.069.12v.936h-7.832v-.936l.247-.003c.716-.014 1.219-.093 1.507-.237.32-.16.48-.424.48-.792 0-.16-.008-.308-.024-.444a3.552 3.552 0 00-.084-.444c-.04-.16-.096-.34-.168-.54-.072-.2-.164-.436-.276-.708l-.985-2.592h-6.414l-.159.384c-.205.5-.384.952-.538 1.356-.192.504-.348.94-.468 1.308-.12.368-.204.68-.252.936a3.538 3.538 0 00-.072.624c0 .448.144.756.432.924.288.168.769.252 1.441.252v.912h-5.837v-.912l.215-.031c.278-.044.522-.097.734-.161.264-.08.496-.192.696-.336.2-.144.377-.332.529-.564.152-.232.3-.516.444-.852l6.246-15.624h1.033zm-1.153 3.504l-2.81 7.08h5.476l-2.666-7.08zM336.875 33.667l.36-4.728h-.912c-.177.752-.389 1.364-.637 1.836s-.585.84-1.009 1.104c-.424.264-.949.448-1.573.552-.625.104-1.394.156-2.307.156-.832 0-1.521-.044-2.066-.132-.544-.088-.98-.248-1.309-.48-.328-.232-.56-.56-.696-.984-.137-.424-.205-.972-.205-1.644V19.003c0-.608.028-1.096.084-1.464.057-.368.169-.656.337-.864.168-.208.408-.352.72-.432.313-.08.725-.128 1.238-.144v-.912h-7.303v.912c.512.032.929.084 1.249.156.32.072.565.208.733.408.168.2.28.472.336.816.056.344.084.796.084 1.356v11.184c0 .56-.032 1.016-.096 1.368-.064.352-.192.624-.384.816-.193.192-.46.328-.805.408-.344.08-.797.128-1.357.144v.912h15.518zM349.619 33.907c2.386 0 4.42-.712 6.102-2.136l.552 1.896h.84V27.69h-.984c-.88 3.28-2.867 4.92-5.958 4.92-2.034 0-3.587-.692-4.66-2.076-1.073-1.384-1.61-3.364-1.61-5.94 0-1.312.14-2.488.42-3.528.281-1.04.686-1.92 1.214-2.64a5.364 5.364 0 011.946-1.656c.769-.384 1.641-.576 2.618-.576 1.426 0 2.643.4 3.652 1.2 1.009.8 1.69 1.904 2.042 3.312h.888l-.216-5.52h-.672l-.433 1.488c-.993-.608-1.914-1.048-2.762-1.32a8.844 8.844 0 00-2.715-.408c-1.361 0-2.606.236-3.735.708a8.33 8.33 0 00-2.907 2.004c-.809.864-1.437 1.896-1.886 3.096-.448 1.2-.672 2.528-.672 3.984 0 1.392.212 2.656.636 3.792.425 1.136 1.025 2.1 1.802 2.892a7.97 7.97 0 002.81 1.836c1.097.432 2.327.648 3.688.648zM369.762 15.187l5.453 13.536.136.327c.311.745.586 1.352.825 1.82.272.537.536.94.792 1.213.256.272.533.448.829.528.296.08.653.12 1.069.12v.936h-7.831v-.936l.246-.003c.717-.014 1.22-.093 1.507-.237.32-.16.48-.424.48-.792 0-.16-.007-.308-.023-.444a3.553 3.553 0 00-.084-.444c-.04-.16-.096-.34-.168-.54-.072-.2-.165-.436-.277-.708l-.985-2.592h-6.414l-.158.384c-.205.5-.384.952-.538 1.356-.192.504-.349.94-.469 1.308-.12.368-.204.68-.252.936a3.538 3.538 0 00-.072.624c0 .448.144.756.432.924.289.168.77.252 1.442.252v.912h-5.838v-.912l.215-.031c.278-.044.523-.097.734-.161.265-.08.497-.192.697-.336.2-.144.376-.332.528-.564.153-.232.3-.516.445-.852l6.246-15.624h1.033zm-1.154 3.504l-2.81 7.08h5.477l-2.667-7.08zM398.168 33.907V19.555c0-.736.032-1.328.096-1.776.064-.448.192-.792.384-1.032.193-.24.46-.404.805-.492.344-.088.797-.14 1.357-.156v-.912h-6.462v.912c.513.016.925.064 1.238.144.312.08.552.248.72.504.168.256.28.62.337 1.092.056.472.084 1.1.084 1.884v9.456h-.096l-10.498-13.992h-4.757v.912c.513.032.93.1 1.25.204.32.104.564.284.732.54.168.256.28.604.337 1.044.056.44.084.996.084 1.668v9.744c0 .752-.032 1.348-.097 1.788-.064.44-.192.78-.384 1.02s-.46.404-.805.492c-.344.088-.796.14-1.357.156v.912h6.462v-.912c-.512-.016-.925-.064-1.237-.144a1.179 1.179 0 01-.72-.504c-.169-.256-.28-.616-.337-1.08-.056-.464-.084-1.096-.084-1.896V18.883h.096l11.41 15.024h1.442zM417.398 33.667v-.912c-.673-.016-1.213-.084-1.622-.204-.408-.12-.72-.296-.937-.528-.216-.232-.36-.532-.432-.9a6.969 6.969 0 01-.108-1.32v-12.84a.64.64 0 01.084-.348c.056-.088.18-.164.372-.228.193-.064.469-.108.83-.132.36-.024.836-.036 1.428-.036.69 0 1.282.056 1.778.168.497.112.909.3 1.237.564.329.264.58.628.757 1.092.176.464.288 1.04.336 1.728h.985l-.24-4.584h-18.137v4.584h.889c.016-.848.144-1.512.384-1.992.24-.48.557-.836.95-1.068.392-.232.856-.372 1.392-.42a19.612 19.612 0 011.742-.072c.513 0 .92.012 1.225.036.305.024.54.068.709.132.168.064.28.14.336.228a.64.64 0 01.084.348v12.84c0 .512-.036.952-.108 1.32-.072.368-.216.668-.432.9-.216.232-.533.408-.95.528-.416.12-.96.188-1.633.204v.912h9.08zM434 35v-1.086c-.648-.019-1.171-.076-1.57-.171-.398-.095-.703-.295-.916-.6-.213-.305-.357-.733-.43-1.286-.075-.552-.112-1.305-.112-2.257V18.4c0-.857.033-1.562.097-2.114.065-.553.195-.986.39-1.3.194-.315.472-.538.833-.672.36-.133.838-.21 1.43-.228V13h-8.444v1.086c.592.038 1.074.119 1.444.243.37.123.653.338.847.642.195.305.325.72.39 1.243.064.524.097 1.186.097 1.986v11.6c0 .895-.037 1.605-.112 2.129-.074.523-.222.928-.444 1.214-.222.286-.532.48-.93.586-.399.104-.922.166-1.57.185V35h9z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <style data-emotion-css="82frfk">
+                        .css-82frfk {
+                            margin: 0;
+                            margin-top: 16px;
+                            color: #ffffff;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 1.33;
+                            -webkit-letter-spacing: 1px;
+                            -moz-letter-spacing: 1px;
+                            -ms-letter-spacing: 1px;
+                            letter-spacing: 1px;
+                        }
+                    </style>
+                    <p class="css-82frfk">Fala Investidor! Estou lançando um novo curso: Investidor Águia FIIs!
+                        Inscrições com 50% de desconto somente para esta primeira turma até domingo, dia 12/01!
+                        <!-- -->🔥</p>
+                </div>
+                <style data-emotion-css="1ce452u">
+                    .css-1ce452u {
+                        grid-column: span 4;
+                        text-align: center;
+                    }
+                </style>
+                <div class="css-1ce452u">
+                    <style data-emotion-css="1su5u1a">
+                        .css-1su5u1a {
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-align-items: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: center;
+                            -webkit-justify-content: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                            height: 72px;
+                            color: #ffffff;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 1.33;
+                            -webkit-letter-spacing: 1.13px;
+                            -moz-letter-spacing: 1.13px;
+                            -ms-letter-spacing: 1.13px;
+                            letter-spacing: 1.13px;
+                            -webkit-text-decoration: none;
+                            text-decoration: none;
+                            background-color: #293b51;
+                            border-radius: 8px;
+                            cursor: pointer;
+                        }
+
+                        .css-1su5u1a:hover {
+                            -webkit-text-decoration: underline;
+                            text-decoration: underline;
+                        }
+                    </style><a href="https://fiis.eduardocavalcanti.com/curso-fu" target="_blank"
+                        rel="noopener noreferrer" class="css-1su5u1a">Ver todos os detalhes do curso</a>
+                </div>
+                <style data-emotion-css="eru0v5">
+                    .css-eru0v5 {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin-top: -12px;
+                        margin-right: -12px;
+                    }
+                </style>
+                <div class="css-eru0v5">
+                    <style data-emotion-css="1gs5woe">
+                        .css-1gs5woe {
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            box-sizing: border-box;
+                            margin: 0;
+                            padding: 0;
+                            background: transparent;
+                            border: none;
+                            cursor: pointer;
+                        }
+                    </style><button type="button" aria-label="Fechar" class="css-1gs5woe"><svg width="24" height="24"
+                            viewBox="0 0 28 28">
+                            <g fill="none">
+                                <path fill="#A53131"
+                                    d="M14 0C6.266 0 0 6.266 0 14s6.266 14 14 14 14-6.266 14-14S21.734 0 14 0zm6.865 17.675a.677.677 0 010 .96l-2.236 2.23a.677.677 0 01-.96 0L14 17.16l-3.675 3.704a.677.677 0 01-.96 0l-2.23-2.236a.677.677 0 010-.96L10.84 14l-3.704-3.675a.677.677 0 010-.96L9.371 7.13a.677.677 0 01.96 0L14 10.839l3.675-3.704a.677.677 0 01.96 0l2.235 2.236a.677.677 0 010 .96L17.161 14l3.704 3.675z">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M20.865 17.675a.677.677 0 010 .96l-2.236 2.23a.677.677 0 01-.96 0L14 17.16l-3.675 3.704a.677.677 0 01-.96 0l-2.23-2.236a.677.677 0 010-.96L10.84 14l-3.704-3.675a.677.677 0 010-.96L9.371 7.13a.677.677 0 01.96 0L14 10.839l3.675-3.704a.677.677 0 01.96 0l2.235 2.236a.677.677 0 010 .96L17.161 14l3.704 3.675z">
+                                </path>
+                            </g>
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+        <style data-emotion-css="yfqa6a">
+            .css-yfqa6a {
+                display: grid;
+                margin: 0px auto;
+                width: 1140px;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: 30px;
+                padding: 40px 0px;
+            }
+        </style>
+        <div class="css-yfqa6a">
+            <style data-emotion-css="cjos5t">
+                .css-cjos5t {
+                    box-sizing: border-box;
+                    grid-column: span 3;
+                    width: 100%;
+                }
+            </style>
+            <div class="css-cjos5t">
+                <style data-emotion-css="xfl1wl">
+                    .css-xfl1wl {
+                        grid-row-gap: 24px;
+                        display: grid;
+                    }
+                </style>
+                <div class="css-xfl1wl">
+                    <style data-emotion-css="672oj8">
+                        .css-672oj8 {
+                            display: grid;
+                            grid-template-columns: max-content max-content;
+                            -webkit-box-pack: justify;
+                            -webkit-justify-content: space-between;
+                            -ms-flex-pack: justify;
+                            justify-content: space-between;
+                        }
+                    </style>
+                    <div class="css-672oj8">
+                        <style data-emotion-css="juj39v">
+                            .css-juj39v {
+                                font-size: 14px;
+                                line-height: 1.333;
+                                -webkit-letter-spacing: 0.8px;
+                                -moz-letter-spacing: 0.8px;
+                                -ms-letter-spacing: 0.8px;
+                                letter-spacing: 0.8px;
+                                color: #829ab1;
+                            }
+                        </style><span class="css-juj39v">
+                            <style data-emotion-css="1vg6q84">
+                                .css-1vg6q84 {
+                                    font-weight: 700;
+                                }
+                            </style><strong class="css-1vg6q84">1872</strong> <!-- -->ativos
+                        </span>
+                    </div>
+                    <style data-emotion-css="1j8drg7">
+                        .css-1j8drg7 {
+                            display: grid;
+                            grid-row-gap: 16px;
+                        }
+                    </style>
+                    <div class="css-1j8drg7">
+                        <style data-emotion-css="b8klf9">
+                            .css-b8klf9 {
+                                display: grid;
+                                grid-row-gap: 4px;
+                            }
+                        </style>
+                        <div class="css-b8klf9">
+                            <div>
+                                <style data-emotion-css="4fnuiy">
+                                    .css-4fnuiy {
+                                        color: #4e657f;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        font-family: museo-sans-rounded;
+                                        line-height: 1.333;
+                                        -webkit-letter-spacing: 1.2px;
+                                        -moz-letter-spacing: 1.2px;
+                                        -ms-letter-spacing: 1.2px;
+                                        letter-spacing: 1.2px;
+                                        text-transform: uppercase;
+                                    }
+                                </style><span class="css-4fnuiy">Filtrar Por</span>
+                            </div>
+                            <div>
+                                <style data-emotion-css="76epnb">
+                                    .css-76epnb {
+                                        color: #9fb3c8;
+                                        font-weight: 300;
+                                        font-size: 14px;
+                                        font-family: museo-sans-rounded;
+                                        line-height: 1.333;
+                                        -webkit-letter-spacing: 1px;
+                                        -moz-letter-spacing: 1px;
+                                        -ms-letter-spacing: 1px;
+                                        letter-spacing: 1px;
+                                    }
+                                </style><span class="css-76epnb">Escolha um tipo de ativo.</span>
+                            </div>
+                        </div>
+                        <style data-emotion-css="1jke4yk">
+                            .css-1jke4yk {
+                                position: relative;
+                                width: 100%;
+                            }
+                        </style>
+                        <div class="css-1jke4yk">
+                            <style data-emotion-css="byl8eb">
+                                .css-byl8eb {
+                                    position: relative;
+                                    display: -webkit-box;
+                                    display: -webkit-flex;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    width: 100%;
+                                    height: 32px;
+                                    padding-right: 36px;
+                                    padding-left: 12px;
+                                    color: #4e657f;
+                                    font-size: 14px;
+                                    line-height: 1.333;
+                                    -webkit-letter-spacing: 0.6px;
+                                    -moz-letter-spacing: 0.6px;
+                                    -ms-letter-spacing: 0.6px;
+                                    letter-spacing: 0.6px;
+                                    background-color: #ffffff;
+                                    border: solid 1px transparent;
+                                    border-radius: 4px;
+                                    outline: none;
+                                    box-shadow: 0 1px 3px 0 #33333333;
+                                    cursor: pointer;
+                                    -webkit-transition: all 60ms ease 0s;
+                                    transition: all 60ms ease 0s;
+                                    pointer-events: all;
+                                    -webkit-appearance: none;
+                                }
+
+                                .css-byl8eb:hover {
+                                    border: solid 1px #bfccda;
+                                }
+
+                                .css-byl8eb:focus {
+                                    border: solid 1px #8195ee;
+                                    box-shadow: #a4b2f4 0px 0px 0px 2px;
+                                }
+                            </style><select class="css-byl8eb">
+                                <option selected="" value="">Todos</option>
+                                <option value="AMERICAN_COMPANY">Ações Americanas</option>
+                                <option value="BRAZILIAN_COMPANY">Ações Brasileiras</option>
+                                <option value="BRAZILIAN_REAL_ESTATE_FUND">Fundos Imobiliários</option>
+                            </select>
+                            <style data-emotion-css="1hzogfw">
+                                .css-1hzogfw {
+                                    position: absolute;
+                                    top: 50%;
+                                    right: 12px;
+                                    display: -webkit-inline-box;
+                                    display: -webkit-inline-flex;
+                                    display: -ms-inline-flexbox;
+                                    display: inline-flex;
+                                    -webkit-transform: translateY(-50%);
+                                    -ms-transform: translateY(-50%);
+                                    transform: translateY(-50%);
+                                    width: 12px;
+                                    height: 7px;
+                                    pointer-events: none;
+                                }
+                            </style>
+                            <div aria-hidden="true" class="css-1hzogfw"><svg width="10" height="7">
+                                    <path
+                                        d="M5 6.5a1 1 0 01-.71-.29l-4-4A1.004 1.004 0 111.71.79L5 4.1 8.3.92a1 1 0 111.38 1.44l-4 3.86A1 1 0 015 6.5z"
+                                        fill="#3f5fe9" fill-rule="nonzero"></path>
+                                </svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style data-emotion-css="85yq6q">
+                .css-85yq6q {
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    grid-column: span 9;
+                    width: 100%;
+                }
+            </style>
+            <div class="css-85yq6q">
+                <style data-emotion-css="nnypk3">
+                    .css-nnypk3 {
+                        display: grid;
+                        grid-row-gap: 28px;
+                    }
+                </style>
+                <div class="css-nnypk3">
+                    <style data-emotion-css="1o33slf">
+                        .css-1o33slf>div {
+                            position: relative;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            grid-column-gap: 30px;
+                            grid-row-gap: 30px;
+                            display: grid;
+                        }
+                    </style>
+                    <div class="css-1o33slf">
+                        <div>
+                            <style data-emotion-css="1x5bobx">
+                                .css-1x5bobx {
+                                    will-change: transform;
+                                }
+                            </style>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d458b6ae9bdf0383211588e" data-portal-key="portal" class="css-1x5bobx">
+                                <style data-emotion-css="1kaq1tm">
+                                    .css-1kaq1tm {
+                                        display: -webkit-box;
+                                        display: -webkit-flex;
+                                        display: -ms-flexbox;
+                                        display: flex;
+                                        -webkit-flex-direction: column;
+                                        -ms-flex-direction: column;
+                                        flex-direction: column;
+                                        box-sizing: border-box;
+                                        height: 100%;
+                                        padding: 16px;
+                                        color: inherit;
+                                        -webkit-text-decoration: none;
+                                        text-decoration: none;
+                                        background-color: #ffffff;
+                                        border: solid 1px transparent;
+                                        border-radius: 4px;
+                                        box-shadow: 0 4px 6px 0 #33333333;
+                                        -webkit-transition: all 60ms ease 0s;
+                                        transition: all 60ms ease 0s;
+                                        -webkit-user-select: none;
+                                        -moz-user-select: none;
+                                        -ms-user-select: none;
+                                        user-select: none;
+                                    }
+
+                                    .css-1kaq1tm:hover {
+                                        border: solid 1px #627bea;
+                                        outline: none;
+                                        box-shadow: 0 0 0 4px #d1d9fa;
+                                    }
+
+                                    .css-1kaq1tm:focus {
+                                        border: solid 1px #2086eb;
+                                        outline: none;
+                                        box-shadow: 0 0 0 4px #bae3ff;
+                                    }
+                                </style><a href="/us/wmt" class="css-1kaq1tm">
+                                    <style data-emotion-css="kqmb38">
+                                        .css-kqmb38 {
+                                            display: grid;
+                                            grid-column-gap: 12px;
+                                            grid-template-columns: fit-content(100%) max-content;
+                                            -webkit-box-pack: justify;
+                                            -webkit-justify-content: space-between;
+                                            -ms-flex-pack: justify;
+                                            justify-content: space-between;
+                                        }
+                                    </style>
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9">
+                                            <style data-emotion-css="1k6m9hg">
+                                                .css-1k6m9hg {
+                                                    display: block;
+                                                    overflow: hidden;
+                                                    color: #293b51;
+                                                    font-weight: bold;
+                                                    font-size: 14px;
+                                                    line-height: 1.333;
+                                                    -webkit-letter-spacing: 0.8px;
+                                                    -moz-letter-spacing: 0.8px;
+                                                    -ms-letter-spacing: 0.8px;
+                                                    letter-spacing: 0.8px;
+                                                    white-space: nowrap;
+                                                    text-overflow: ellipsis;
+                                                }
+                                            </style><span class="css-1k6m9hg">Walmart</span>
+                                            <style data-emotion-css="9lcmpg">
+                                                .css-9lcmpg {
+                                                    display: block;
+                                                    overflow: hidden;
+                                                    color: #394e66;
+                                                    font-weight: 400;
+                                                    font-size: 13px;
+                                                    line-height: 1.333;
+                                                    -webkit-letter-spacing: 0.8px;
+                                                    -moz-letter-spacing: 0.8px;
+                                                    -ms-letter-spacing: 0.8px;
+                                                    letter-spacing: 0.8px;
+                                                    white-space: nowrap;
+                                                    text-overflow: ellipsis;
+                                                }
+                                            </style><span class="css-9lcmpg">Consumer Defensive</span>
+                                        </div>
+                                        <style data-emotion-css="10zdn6o">
+                                            .css-10zdn6o {
+                                                object-fit: contain;
+                                                object-position: top right;
+                                                -webkit-user-select: none;
+                                                -moz-user-select: none;
+                                                -ms-user-select: none;
+                                                user-select: none;
+                                            }
+                                        </style><img role="presentation" src="https://s.fndm.to/logos/48670016.svg"
+                                            width="63" height="19" alt="Walmart" draggable="false"
+                                            class="css-10zdn6o" />
+                                    </div>
+                                    <style data-emotion-css="1hw29i9">
+                                        .css-1hw29i9 {
+                                            margin-top: 12px;
+                                        }
+                                    </style>
+                                    <div class="css-1hw29i9">
+                                        <style data-emotion-css="147died">
+                                            .css-147died {
+                                                display: -webkit-box;
+                                                overflow: hidden;
+                                                -webkit-box-orient: vertical;
+                                                line-clamp: 3px;
+                                                -webkit-line-clamp: 3;
+                                            }
+                                        </style>
+                                        <div class="css-147died">
+                                            <style data-emotion-css="1yxxzv2">
+                                                .css-1yxxzv2 {
+                                                    margin: 0;
+                                                    color: #829ab1;
+                                                    font-size: 14px;
+                                                    line-height: 1.33;
+                                                    -webkit-letter-spacing: 0.8px;
+                                                    -moz-letter-spacing: 0.8px;
+                                                    -ms-letter-spacing: 0.8px;
+                                                    letter-spacing: 0.8px;
+                                                }
+                                            </style>
+                                            <p class="css-1yxxzv2">America’s largest retailer by sales, Walmart operates
+                                                over 11,300 stores under 58 banners, selling a variety of general
+                                                merchandise and grocery items.</p>
+                                        </div>
+                                    </div>
+                                    <style data-emotion-css="157z1p0">
+                                        .css-157z1p0 {
+                                            display: -webkit-inline-box;
+                                            display: -webkit-inline-flex;
+                                            display: -ms-inline-flexbox;
+                                            display: inline-flex;
+                                            margin-top: auto;
+                                        }
+                                    </style>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9">
+                                            <style data-emotion-css="1rvjs5a">
+                                                .css-1rvjs5a {
+                                                    color: #627d98;
+                                                    font-weight: bold;
+                                                    font-size: 13px;
+                                                    line-height: 1.33;
+                                                    -webkit-letter-spacing: 0.6px;
+                                                    -moz-letter-spacing: 0.6px;
+                                                    -ms-letter-spacing: 0.6px;
+                                                    letter-spacing: 0.6px;
+                                                }
+                                            </style><span class="css-1rvjs5a">WMT</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5c5f838fb7fba709ec784ce0" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/br/petr" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Petrobras</span><span
+                                                class="css-9lcmpg">Petróleo. Gás e Biocombustíveis</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/023f1667.svg" width="63"
+                                            height="19" alt="Petrobras" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Atua com produção, refino, comercialização,
+                                                transporte, gás natural, energia elétrica e biocombustíveis</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">PETR</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d48674abab737ec0eb3cebc" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/xom" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Exxon Mobil</span><span
+                                                class="css-9lcmpg">Energy</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/ef5591b0.svg" width="63" height="19"
+                                            alt="Exxon Mobil" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">ExxonMobil is an integrated oil and gas company that
+                                                explores for, produces, and refines oil around the world.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">XOM</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d45fb76122886722c1c9871" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/aapl" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Apple</span><span
+                                                class="css-9lcmpg">Technology</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/75a70c4d.svg" width="63" height="19"
+                                            alt="Apple" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Apple designs a wide variety of consumer electronic
+                                                devices, including smartphones (iPhone), tablets (iPad), PCs (Mac),
+                                                smartwatches (Watch), and TV boxes (Apple TV), among others.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">AAPL</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d4381cad2ba13d0919627ad" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/amzn" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Amazon</span><span
+                                                class="css-9lcmpg">Consumer Cyclical</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/092549ce.svg" width="63"
+                                            height="19" alt="Amazon" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Amazon is among the world&#x27;s highest-grossing
+                                                online retailers, with $233 billion in net sales and $408 billion in
+                                                estimated global gross merchandise volume (GMV) in 2018.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">AMZN</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d843bad3d2e172e085a5efa" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/brk.b" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Berkshire Hathaway</span><span
+                                                class="css-9lcmpg">Financial Services</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/d6bd78b0.svg" width="63"
+                                            height="19" alt="Berkshire Hathaway" draggable="false"
+                                            class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Berkshire Hathaway is a holding company with a wide
+                                                array of subsidiaries engaged in diverse activities.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">BRK.B</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d843ba23b9c302e039eb131" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/brk.a" class="css-1kaq1tm">
+                                    <style data-emotion-css="1w7iymg">
+                                        .css-1w7iymg {
+                                            display: grid;
+                                            grid-column-gap: 12px;
+                                            grid-template-columns: fit-content(100%);
+                                            -webkit-box-pack: justify;
+                                            -webkit-justify-content: space-between;
+                                            -ms-flex-pack: justify;
+                                            justify-content: space-between;
+                                        }
+                                    </style>
+                                    <div class="css-1w7iymg">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Berkshire Hathaway</span><span
+                                                class="css-9lcmpg">Financial Services</span></div>
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Berkshire Hathaway is a holding company with a wide
+                                                array of subsidiaries engaged in diverse activities.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">BRK.A</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d842e62d3b00a25adf2aba9" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/unh" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">UnitedHealth</span><span
+                                                class="css-9lcmpg">Healthcare</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/13eced7b.svg" width="63" height="19"
+                                            alt="UnitedHealth" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">UnitedHealth Group is the largest private health
+                                                insurance provider in the United States, offering medical benefits to
+                                                nearly 50 million members across its U.S. and international businesses.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">UNH</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d84289752ecbe22869c477d" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/mck" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">McKesson</span><span
+                                                class="css-9lcmpg">Healthcare</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/96ef308d.svg" width="63" height="19"
+                                            alt="McKesson" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">McKesson Corporation is the largest and most complex
+                                                of the leading third-party logistics providers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">MCK</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d842cad1bb5ac24e71108b9" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/cvs" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">CVS Health</span><span
+                                                class="css-9lcmpg">Healthcare</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/0fa8df12.svg" width="63" height="19"
+                                            alt="CVS Health" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Following its acquisition of Aetna, CVS Health now
+                                                provides a more integrated healthcare services offering for its members.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">CVS</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5c5f838fb7fba709ec784c8f" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/br/jbss" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">JBS</span><span
+                                                class="css-9lcmpg">Consumo não Cíclico</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/b9c42de7.svg" width="63"
+                                            height="19" alt="JBS" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Processa por dia mais de 80 mil bovinos, 14 milhões
+                                                de aves, 115 mil suínos e 100 mil peças de couro</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">JBSS</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d8426ea8e4b5021760c768a" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/abc" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">AmerisourceBergen</span><span
+                                                class="css-9lcmpg">Healthcare</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/aacfa94b.svg" width="63" height="19"
+                                            alt="AmerisourceBergen" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">AmerisourceBergen is a leading global third-party
+                                                logistics provider engaged in wholesale pharmaceutical sourcing and
+                                                distribution of specialty, brand-name, and generic pharmaceuticals and
+                                                related services to acute-care hospitals and health systems, independent
+                                                and chain retail pharmacies, mail order pharmacies, medical clinics,
+                                                long-term care and alternate site pharmacies, physician practices,
+                                                dialysis clinics, and other healthcare customers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">ABC</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d842dd277772d258aab0852" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/t" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">AT&amp;T</span><span
+                                                class="css-9lcmpg">Communication Services</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/b42e861f.svg" width="63"
+                                            height="19" alt="AT&amp;T" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Wireless communication remains AT&amp;T&#x27;s
+                                                largest business, contributing nearly 40% of revenue.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">T</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d842bf9cb0b1124b6c77413" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/f" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Ford</span><span
+                                                class="css-9lcmpg">Consumer Cyclical</span></div><img
+                                            role="presentation" src="https://s.fndm.to/logos/42f27863.svg" width="63"
+                                            height="19" alt="Ford" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Ford Motor Co. manufactures automobiles under its
+                                                Ford and Lincoln brands.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">F</span></div>
+                                    </div>
+                                </a></div>
+                            <div data-flip-config="{&quot;translate&quot;:true,&quot;scale&quot;:true,&quot;opacity&quot;:true}"
+                                data-flip-id="5d85841883d5ebb0893ace18" data-portal-key="portal" class="css-1x5bobx"><a
+                                    href="/us/cvx" class="css-1kaq1tm">
+                                    <div class="css-kqmb38">
+                                        <div class="css-b8klf9"><span class="css-1k6m9hg">Chevron</span><span
+                                                class="css-9lcmpg">Energy</span></div><img role="presentation"
+                                            src="https://s.fndm.to/logos/cd06bc6a.svg" width="63" height="19"
+                                            alt="Chevron" draggable="false" class="css-10zdn6o" />
+                                    </div>
+                                    <div class="css-1hw29i9">
+                                        <div class="css-147died">
+                                            <p class="css-1yxxzv2">Chevron is an integrated energy company with
+                                                exploration, production, and refining operations worldwide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="css-157z1p0">
+                                        <div class="css-1hw29i9"><span class="css-1rvjs5a">CVX</span></div>
+                                    </div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="__NEXT_DATA__"
+        type="application/json">{"dataManager":"[]","props":{"pageProps":{"resultsState":{"rawResults":[{"hits":[{"_id":"5d458b6ae9bdf0383211588e","type":"AMERICAN_COMPANY","name":"Walmart","tickerSymbolPrefix":"WMT","primaryLogo":"https://s.fndm.to/logos/48670016.svg","industrySector":"Consumer Defensive","industrySegment":"Discount Stores","shortDescription":"America’s largest retailer by sales, Walmart operates over 11,300 stores under 58 banners, selling a variety of general merchandise and grocery items.","lastYearlyFinancials":{"netRevenue":514405000000,"netIncome":6670000000,"netMargin":1},"lastQuarterlyFinancials":{"netRevenue":130377000000,"netIncome":3610000000,"netMargin":3},"headquarters":{"formatted":"Bentonville • Arkansas","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d458b6ae9bdf0383211588e","_highlightResult":{"name":{"value":"Walmart","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"WMT","matchLevel":"none","matchedWords":[]}}},{"_id":"5c5f838fb7fba709ec784ce0","type":"BRAZILIAN_COMPANY","name":"Petrobras","tickerSymbolPrefix":"PETR","primaryLogo":"https://s.fndm.to/logos/023f1667.svg","industrySector":"Petróleo. Gás e Biocombustíveis","industrySegment":"Petróleo, Gás e Biocombustíveis","shortDescription":"Atua com produção, refino, comercialização, transporte, gás natural, energia elétrica e biocombustíveis","listingSegment":"Nível 2 de Governança Corporativa","tickerSymbols":["PETR3","PETR4"],"lastYearlyFinancials":{"netRevenue":349836000000,"netIncome":26698000000,"netMargin":8},"lastQuarterlyFinancials":{"netRevenue":77051000000,"netIncome":8840000000,"netMargin":11},"capitalDistribution":{"totalShareholders":367410,"totalOfIndividualShareholders":360119,"totalOfCorporateShareholders":4798,"totalOfInstitutionalShareholders":2493},"freeFloat":{"commonStock":39.635,"preferredStock":75.292},"tagAlong":{"commonStock":100,"preferredStock":100,"buckets":["ONE_HUNDRED_PERCENT_ON_BOTH","BOTH_AT_LEAST_EIGHTY_PERCENT","COMMON_STOCK_AT_LEAST_EIGHTY_PERCENT","ONE_HUNDRED_PERCENT_ON_COMMON_STOCK","PREFERRED_STOCK_AT_LEAST_EIGHTY_PERCENT","ONE_HUNDRED_PERCENT_ON_PREFERRED_STOCK"]},"flags":{"isGovernmentAShareholder":true,"hasSubsidiaries":true},"objectID":"5c5f838fb7fba709ec784ce0","_highlightResult":{"name":{"value":"Petrobras","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"PETR","matchLevel":"none","matchedWords":[]},"tickerSymbols":[{"value":"PETR3","matchLevel":"none","matchedWords":[]},{"value":"PETR4","matchLevel":"none","matchedWords":[]}]}},{"_id":"5d48674abab737ec0eb3cebc","type":"AMERICAN_COMPANY","name":"Exxon Mobil","tickerSymbolPrefix":"XOM","primaryLogo":"https://s.fndm.to/logos/ef5591b0.svg","industrySector":"Energy","industrySegment":"Oil \u0026 Gas Integrated","shortDescription":"ExxonMobil is an integrated oil and gas company that explores for, produces, and refines oil around the world.","lastYearlyFinancials":{"netRevenue":279332000000,"netIncome":20840000000,"netMargin":7},"lastQuarterlyFinancials":{"netRevenue":63422000000,"netIncome":3170000000,"netMargin":5},"headquarters":{"formatted":"Irving • Texas","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d48674abab737ec0eb3cebc","_highlightResult":{"name":{"value":"Exxon Mobil","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"XOM","matchLevel":"none","matchedWords":[]}}},{"_id":"5d45fb76122886722c1c9871","type":"AMERICAN_COMPANY","name":"Apple","tickerSymbolPrefix":"AAPL","primaryLogo":"https://s.fndm.to/logos/75a70c4d.svg","industrySector":"Technology","industrySegment":"Consumer Electronics","shortDescription":"Apple designs a wide variety of consumer electronic devices, including smartphones (iPhone), tablets (iPad), PCs (Mac), smartwatches (Watch), and TV boxes (Apple TV), among others.","lastYearlyFinancials":{"netRevenue":260174000000,"netIncome":55256000000,"netMargin":21},"lastQuarterlyFinancials":{"netRevenue":64040000000,"netIncome":13686000000,"netMargin":21},"headquarters":{"formatted":"Cupertino • California","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d45fb76122886722c1c9871","_highlightResult":{"name":{"value":"Apple","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"AAPL","matchLevel":"none","matchedWords":[]}}},{"_id":"5d4381cad2ba13d0919627ad","type":"AMERICAN_COMPANY","name":"Amazon","tickerSymbolPrefix":"AMZN","primaryLogo":"https://s.fndm.to/logos/092549ce.svg","industrySector":"Consumer Cyclical","industrySegment":"Specialty Retail","shortDescription":"Amazon is among the world's highest-grossing online retailers, with $233 billion in net sales and $408 billion in estimated global gross merchandise volume (GMV) in 2018.","lastYearlyFinancials":{"netRevenue":232887000000,"netIncome":10073000000,"netMargin":4},"lastQuarterlyFinancials":{"netRevenue":69981000000,"netIncome":2134000000,"netMargin":3},"headquarters":{"formatted":"Seattle • Washington","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d4381cad2ba13d0919627ad","_highlightResult":{"name":{"value":"Amazon","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"AMZN","matchLevel":"none","matchedWords":[]}}},{"_id":"5d843bad3d2e172e085a5efa","type":"AMERICAN_COMPANY","name":"Berkshire Hathaway","tickerSymbolPrefix":"BRK.B","primaryLogo":"https://s.fndm.to/logos/d6bd78b0.svg","industrySector":"Financial Services","industrySegment":"Insurance - Diversified","shortDescription":"Berkshire Hathaway is a holding company with a wide array of subsidiaries engaged in diverse activities.","lastYearlyFinancials":{"netRevenue":225382000000,"netIncome":4021000000,"netMargin":2},"lastQuarterlyFinancials":{"netRevenue":75898000000,"netIncome":16524000000,"netMargin":22},"headquarters":{"formatted":"Omaha • Nebraska","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d843bad3d2e172e085a5efa","_highlightResult":{"name":{"value":"Berkshire Hathaway","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"BRK.B","matchLevel":"none","matchedWords":[]}}},{"_id":"5d843ba23b9c302e039eb131","type":"AMERICAN_COMPANY","name":"Berkshire Hathaway","tickerSymbolPrefix":"BRK.A","primaryLogo":null,"industrySector":"Financial Services","industrySegment":"Insurance - Diversified","shortDescription":"Berkshire Hathaway is a holding company with a wide array of subsidiaries engaged in diverse activities.","lastYearlyFinancials":{"netRevenue":225382000000,"netIncome":4021000000,"netMargin":2},"lastQuarterlyFinancials":{"netRevenue":73646000000,"netIncome":14073000000,"netMargin":19},"headquarters":{"formatted":"Omaha • Nebraska","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d843ba23b9c302e039eb131","_highlightResult":{"name":{"value":"Berkshire Hathaway","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"BRK.A","matchLevel":"none","matchedWords":[]}}},{"_id":"5d842e62d3b00a25adf2aba9","type":"AMERICAN_COMPANY","name":"UnitedHealth","tickerSymbolPrefix":"UNH","primaryLogo":"https://s.fndm.to/logos/13eced7b.svg","industrySector":"Healthcare","industrySegment":"Health Care Plans","shortDescription":"UnitedHealth Group is the largest private health insurance provider in the United States, offering medical benefits to nearly 50 million members across its U.S. and international businesses.","lastYearlyFinancials":{"netRevenue":224871000000,"netIncome":11986000000,"netMargin":5},"lastQuarterlyFinancials":{"netRevenue":59885000000,"netIncome":3538000000,"netMargin":6},"headquarters":{"formatted":"Minnetonka • Minnesota","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d842e62d3b00a25adf2aba9","_highlightResult":{"name":{"value":"UnitedHealth","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"UNH","matchLevel":"none","matchedWords":[]}}},{"_id":"5d84289752ecbe22869c477d","type":"AMERICAN_COMPANY","name":"McKesson","tickerSymbolPrefix":"MCK","primaryLogo":"https://s.fndm.to/logos/96ef308d.svg","industrySector":"Healthcare","industrySegment":"Medical Distribution","shortDescription":"McKesson Corporation is the largest and most complex of the leading third-party logistics providers.","lastYearlyFinancials":{"netRevenue":214319000000,"netIncome":34000000,"netMargin":0},"lastQuarterlyFinancials":{"netRevenue":57616000000,"netIncome":-730000000,"netMargin":-1},"headquarters":{"formatted":"San Francisco • California","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d84289752ecbe22869c477d","_highlightResult":{"name":{"value":"McKesson","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"MCK","matchLevel":"none","matchedWords":[]}}},{"_id":"5d842cad1bb5ac24e71108b9","type":"AMERICAN_COMPANY","name":"CVS Health","tickerSymbolPrefix":"CVS","primaryLogo":"https://s.fndm.to/logos/0fa8df12.svg","industrySector":"Healthcare","industrySegment":"Health Care Plans","shortDescription":"Following its acquisition of Aetna, CVS Health now provides a more integrated healthcare services offering for its members.","lastYearlyFinancials":{"netRevenue":194579000000,"netIncome":-594000000,"netMargin":0},"lastQuarterlyFinancials":{"netRevenue":64547000000,"netIncome":1530000000,"netMargin":2},"headquarters":{"formatted":"Woonsocket • Rhode Island","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d842cad1bb5ac24e71108b9","_highlightResult":{"name":{"value":"CVS Health","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"CVS","matchLevel":"none","matchedWords":[]}}},{"_id":"5c5f838fb7fba709ec784c8f","type":"BRAZILIAN_COMPANY","name":"JBS","tickerSymbolPrefix":"JBSS","primaryLogo":"https://s.fndm.to/logos/b9c42de7.svg","industrySector":"Consumo não Cíclico","industrySegment":"Carnes e Derivados","shortDescription":"Processa por dia mais de 80 mil bovinos, 14 milhões de aves, 115 mil suínos e 100 mil peças de couro","listingSegment":"Novo Mercado","tickerSymbols":["JBSS3"],"lastYearlyFinancials":{"netRevenue":181680000000,"netIncome":210000000,"netMargin":0},"lastQuarterlyFinancials":{"netRevenue":52184406000,"netIncome":454015000,"netMargin":1},"capitalDistribution":{"totalShareholders":11151,"totalOfIndividualShareholders":9826,"totalOfCorporateShareholders":97,"totalOfInstitutionalShareholders":1228},"freeFloat":{"commonStock":34.903,"preferredStock":null},"tagAlong":{"commonStock":100,"preferredStock":null,"buckets":["COMMON_STOCK_AT_LEAST_EIGHTY_PERCENT","ONE_HUNDRED_PERCENT_ON_COMMON_STOCK"]},"flags":{"isGovernmentAShareholder":true,"hasSubsidiaries":true},"objectID":"5c5f838fb7fba709ec784c8f","_highlightResult":{"name":{"value":"JBS","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"JBSS","matchLevel":"none","matchedWords":[]},"tickerSymbols":[{"value":"JBSS3","matchLevel":"none","matchedWords":[]}]}},{"_id":"5d8426ea8e4b5021760c768a","type":"AMERICAN_COMPANY","name":"AmerisourceBergen","tickerSymbolPrefix":"ABC","primaryLogo":"https://s.fndm.to/logos/aacfa94b.svg","industrySector":"Healthcare","industrySegment":"Medical Distribution","shortDescription":"AmerisourceBergen is a leading global third-party logistics provider engaged in wholesale pharmaceutical sourcing and distribution of specialty, brand-name, and generic pharmaceuticals and related services to acute-care hospitals and health systems, independent and chain retail pharmacies, mail order pharmacies, medical clinics, long-term care and alternate site pharmacies, physician practices, dialysis clinics, and other healthcare customers.","lastYearlyFinancials":{"netRevenue":179589121000,"netIncome":855365000,"netMargin":0},"lastQuarterlyFinancials":{"netRevenue":45637802000,"netIncome":132619000,"netMargin":0},"headquarters":{"formatted":"Chesterbrook • Pennsylvania","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d8426ea8e4b5021760c768a","_highlightResult":{"name":{"value":"AmerisourceBergen","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"ABC","matchLevel":"none","matchedWords":[]}}},{"_id":"5d842dd277772d258aab0852","type":"AMERICAN_COMPANY","name":"AT\u0026T","tickerSymbolPrefix":"T","primaryLogo":"https://s.fndm.to/logos/b42e861f.svg","industrySector":"Communication Services","industrySegment":"Telecom Services","shortDescription":"Wireless communication remains AT\u0026T's largest business, contributing nearly 40% of revenue.","lastYearlyFinancials":{"netRevenue":170756000000,"netIncome":19370000000,"netMargin":11},"lastQuarterlyFinancials":{"netRevenue":44588000000,"netIncome":3700000000,"netMargin":8},"headquarters":{"formatted":"Dallas • Texas","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d842dd277772d258aab0852","_highlightResult":{"name":{"value":"AT\u0026T","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"T","matchLevel":"none","matchedWords":[]}}},{"_id":"5d842bf9cb0b1124b6c77413","type":"AMERICAN_COMPANY","name":"Ford","tickerSymbolPrefix":"F","primaryLogo":"https://s.fndm.to/logos/42f27863.svg","industrySector":"Consumer Cyclical","industrySegment":"Auto Manufacturers","shortDescription":"Ford Motor Co. manufactures automobiles under its Ford and Lincoln brands.","lastYearlyFinancials":{"netRevenue":160338000000,"netIncome":3677000000,"netMargin":2},"lastQuarterlyFinancials":{"netRevenue":36990000000,"netIncome":425000000,"netMargin":1},"headquarters":{"formatted":"Dearborn • Michigan","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d842bf9cb0b1124b6c77413","_highlightResult":{"name":{"value":"Ford","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"F","matchLevel":"none","matchedWords":[]}}},{"_id":"5d85841883d5ebb0893ace18","type":"AMERICAN_COMPANY","name":"Chevron","tickerSymbolPrefix":"CVX","primaryLogo":"https://s.fndm.to/logos/cd06bc6a.svg","industrySector":"Energy","industrySegment":"Oil \u0026 Gas Integrated","shortDescription":"Chevron is an integrated energy company with exploration, production, and refining operations worldwide.","lastYearlyFinancials":{"netRevenue":158902000000,"netIncome":14824000000,"netMargin":9},"lastQuarterlyFinancials":{"netRevenue":34779000000,"netIncome":2580000000,"netMargin":7},"headquarters":{"formatted":"San Ramon • California","longCountry":"United States","country":"US","flagSvgHref":"https://s.fndm.to/svg/common/flags/US.svg"},"objectID":"5d85841883d5ebb0893ace18","_highlightResult":{"name":{"value":"Chevron","matchLevel":"none","matchedWords":[]},"tickerSymbolPrefix":{"value":"CVX","matchLevel":"none","matchedWords":[]}}}],"nbHits":1872,"offset":0,"length":15,"facets":{"type":{"AMERICAN_COMPANY":1300,"BRAZILIAN_COMPANY":322,"BRAZILIAN_REAL_ESTATE_FUND":250}},"exhaustiveFacetsCount":true,"exhaustiveNbHits":true,"query":"","params":"highlightPreTag=%3Cais-highlight-0000000000%3E\u0026highlightPostTag=%3C%2Fais-highlight-0000000000%3E\u0026maxValuesPerFacet=20\u0026hitsPerPage=21\u0026offset=0\u0026length=15\u0026page=0\u0026facets=%5B%22type%22%5D\u0026tagFilters=","index":"assets","processingTimeMS":1}],"state":{"facets":[],"disjunctiveFacets":["type"],"hierarchicalFacets":[],"facetsRefinements":{},"facetsExcludes":{},"disjunctiveFacetsRefinements":{},"numericRefinements":{},"tagRefinements":[],"hierarchicalFacetsRefinements":{},"index":"assets","highlightPreTag":"\u003cais-highlight-0000000000\u003e","highlightPostTag":"\u003c/ais-highlight-0000000000\u003e","maxValuesPerFacet":20,"hitsPerPage":21,"offset":0,"length":15,"page":0}}},"cookies":{"token":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVlMWEyMmVkYzNlODFiOTM2ZWVkYjk4YyIsImZpcnN0TmFtZSI6IkpPU0lNQVIgR0VSQUxETyIsImxhc3ROYW1lIjoiUkVJUyIsInBpY3R1cmVVcmwiOm51bGwsImVtYWlsIjoiam9zaW1hcmdlcmFsZG9yZWlzQGdtYWlsLmNvbSJ9LCJpYXQiOjE1Nzg3NzEyMDksImV4cCI6MTU3OTYzNTIwOX0.ezWEPfGYnlaB7QaL3vEGunsaVxBdgL5efaErPONjUrOAYiWetHfRX3vjQIIvAhBcURkagxyURbvUKsSha6vHSQ"},"userAgent":"Amazon CloudFront","apolloState":{"data":{"RegularUser:5e1a22edc3e81b936eedb98c":{"_id":"5e1a22edc3e81b936eedb98c","firstName":"JOSIMAR GERALDO","lastName":"REIS","fullName":"JOSIMAR GERALDO REIS","email":"josimargeraldoreis@gmail.com","isConnectedWithGoogle":false,"hasPasswordSet":true,"isPremium":false,"isSiteAdmin":false,"pictureUrl":null,"subscription":null,"charges":[],"settings":{"type":"id","generated":true,"id":"$RegularUser:5e1a22edc3e81b936eedb98c.settings","typename":"UserSettings"},"__typename":"RegularUser"},"$RegularUser:5e1a22edc3e81b936eedb98c.settings.advertisements":{"hasClosedRemessaOnlineDiscount":false,"hasClosedEduardoFiisCourse":false,"hasClosedEduardoFirstLiveAboutFiis":false,"__typename":"UserAdvertisementSettings"},"$RegularUser:5e1a22edc3e81b936eedb98c.settings":{"advertisements":{"type":"id","generated":true,"id":"$RegularUser:5e1a22edc3e81b936eedb98c.settings.advertisements","typename":"UserAdvertisementSettings"},"__typename":"UserSettings"},"ROOT_QUERY":{"selfie":{"type":"id","generated":false,"id":"RegularUser:5e1a22edc3e81b936eedb98c","typename":"RegularUser"}}}},"apollo":null},"page":"/","query":{},"buildId":"S_yH6CgbhfH9nE6NACM19"}</script>
+    <script async="" data-next-page="/" src="/_next/static/S_yH6CgbhfH9nE6NACM19/pages/index.js"></script>
+    <script async="" data-next-page="/_app" src="/_next/static/S_yH6CgbhfH9nE6NACM19/pages/_app.js"></script>
+    <script src="/_next/static/runtime/webpack-4b444dab214c6491079c.js" async=""></script>
+    <script src="/_next/static/chunks/commons.a0da080a1567a212401c.js" async=""></script>
+    <script src="/_next/static/runtime/main-69c316f82e0521558b33.js" async=""></script>
+    <script src="/_next/static/chunks/styles.a0497b231c558941e5c0.js" async=""></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-149709777-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+        gtag("config", "UA-149709777-2");
+        gtag("config", "AW-975174581");
+    </script>
+</body>
+
+</html>
